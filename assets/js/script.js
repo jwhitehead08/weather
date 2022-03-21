@@ -112,8 +112,9 @@ function displayCity() {
 function getApi(cityName) {
 
   console.log(cityName);
+  
 
-  var requestUrl = 'http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&units=imperial&appid=42315a92a191c90b4007c062b41a8de1';
+  var requestUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&units=imperial&appid=42315a92a191c90b4007c062b41a8de1';
 
   fetch(requestUrl)
     .then(function (response) {
