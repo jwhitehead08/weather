@@ -17,4 +17,6 @@ WEBSITE
 
 Screenshot of Webpage
 
-    <img src="./assets/images/Screen Shot 2022-03-20 at 10.42.29 PM.png">
+   https://github.com/jwhitehead08/weather/blob/1933ecd9c274564788523e10a04bf2d604b9f372/assets/images/Screen%20Shot%202022-03-20%20at%2010.42.29%20PM.png
+
+  
