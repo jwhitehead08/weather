@@ -1,0 +1,131 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.btn {
+    margin: 10px 0 10px 0;
+    width: 100%;
+}
+
+#header-container {
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(.25turn, blue, 50%, indigo);
+    color: white;
+    width: 100vw;
+    
+    
+}
+
+.header-text {
+    padding: 30px 0 30px 0;
+    font-size:xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#current-container {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px black;
+    display:block;
+    margin: 0 0 15px 0
+  
+}
+
+#forecast-container {
+    width: 100%;
+}
+
+#cities-container {
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+
+#weather-container {
+    margin: 10px;
+
+}
+
+.hide {
+    display: none;
+}
+
+.purple {
+    background-color: purple;
+    max-width: 10%;
+}
+
+.red {
+    background-color: red;
+    max-width: 10%;
+}
+
+.orange {
+    background-color: orange;
+    max-width: 10%;
+}
+
+.yellow {
+    background-color: yellow;
+    max-width: 10%;
+}
+
+.green {
+    background-color: green;
+    max-width: 10%;
+}
+
+.forecast{
+    width: 18rem;
+    background-color:  #33475a;
+    color: white;
+    margin: 0;
+}
+
+h2::first-letter {
+    text-transform:capitalize;
+}
+
+.day {
+    padding: 2%;
+}
+
+.nameIcon {
+    align-items: center;
+}
+
+.dayEl {
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+}
+
+#buttons-container {
+    border-top: 1px solid black;
+}
+
+.city-btn {
+    background-color: gray;
+    color: black;
+}
+
+.currentWrapper {
+    margin-left: 15px;
+}
+
+.uvi {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px
+}
+
+.uvDiv {
+    align-items: center;
+}
