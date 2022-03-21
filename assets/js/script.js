@@ -130,6 +130,7 @@ function getApi(cityName) {
     })
 }
 
+// request one call api
 function oneCallApi(lat, lon, cityName) {
 
   var requestOneCallApi = 'https://api.openweathermap.org/data/2.5/onecall?lat=' + lat + '&lon=' + lon + '&units=imperial&appid=42315a92a191c90b4007c062b41a8de1'
